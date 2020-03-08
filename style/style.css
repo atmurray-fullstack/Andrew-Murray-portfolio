@@ -1,6 +1,6 @@
 
-container{
-    height: 100vh;
+.navbar h4{
+    font-size: 16px;
 }
 
 .top{
@@ -20,4 +20,9 @@ container{
     background-color: gainsboro;
     position:fixed;
     bottom:0;
+}
+.center-b{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
