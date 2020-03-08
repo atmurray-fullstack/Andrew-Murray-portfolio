@@ -1,0 +1,23 @@
+
+container{
+    height: 100vh;
+}
+
+.top{
+    background-color: cadetblue;
+    text-align: center;
+    
+}
+
+.aboutme p{
+   font-size: 18px; 
+}
+.ind{
+    padding:1% 4% 1% 4%;
+}
+.footer{
+    widows: 100%;
+    background-color: gainsboro;
+    position:fixed;
+    bottom:0;
+}
