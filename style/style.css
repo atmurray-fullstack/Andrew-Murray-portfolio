@@ -12,9 +12,16 @@
     color:whitesmoke;   
 
 }
-h2{
-    font-size: 34px;
+.grey-h2{
+    
     color: slategrey;
+    
+    font-weight: bolder;
+}
+h2{
+    color: slategrey;
+    font-size: 34px;
+    
     font-family: 'Lobster', cursive;
 }
 
@@ -35,6 +42,7 @@ img{
    font-size: 20px; 
    color:white;
    font-family: 'Francois One', sans-serif;
+   font-weight: bolder;
 }
 
 #about-me{
@@ -43,10 +51,20 @@ img{
     border-color:slategray;
     border-width: 4px;
     border-radius: 5% 5% 5% 5%;
-    background-image: url(https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/67834978_193545774977939_2059502067871719133_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=111&_nc_ohc=WCb4WXnzUWcAX9JLA5E&oh=282990b17d21744a3652b4b29d41df94&oe=5E9504D7);
+    background-color: tomato;
     background-blend-mode: exclusion;
 
 }
+#about-me h2{
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 12px 12px 2px 2px;
+}
+#about-me hr{
+    color:white;
+}
+
 
 #port-box{
        
