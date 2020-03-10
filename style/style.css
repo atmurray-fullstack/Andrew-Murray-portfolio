@@ -1,3 +1,7 @@
+hr{
+    border-top: 2px solid black;
+}
+
 .header li{
     font-size: 16px;
     font-style: italic;
@@ -81,6 +85,9 @@ img{
        
     padding:5% 5% 5% 5%;
 
+}
+#port-box a{
+    margin:0 2% 0 2%;
 }
 #port-col{
     border-style: solid;
