@@ -1,3 +1,14 @@
+.header li{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+       
+}
+.header li:hover{
+    color:orange;
+    
+}
+
 .h-h1{
     text-align: left;
     padding-left:10px;
@@ -48,7 +59,7 @@ img{
 #about-me{
     padding: 2% 2% 2% 2%;
     border-style: solid;
-    border-color:slategray;
+    border-color: black;
     border-width: 4px;
     border-radius: 5% 5% 5% 5%;
     background-color: tomato;
@@ -87,7 +98,7 @@ img{
     border-style: solid;
     border-width: 3px;
     border-radius: 3% 3% 3% 3%;
-    border-color:slategrey;
+    border-color: black;
     background-color: cadetblue;
     padding: 4% 4% 4% 4%;
    
@@ -101,6 +112,13 @@ footer{
     opacity: .85;
 }
 
+.sub-butt{
+    background-color: tomato ;
+    color:white;
+    font-style: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
 
 
 
