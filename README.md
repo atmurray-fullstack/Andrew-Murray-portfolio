@@ -1,2 +1,2 @@
 # Andrew-Murray-portfolio
-A portfolio of projects created by Andrew Murray
+This project involved creating a landing page, portfolio page, and a contact page. The application is responsive across xs, sm, med, and lg screens. Html, Css, and Bootstrap were used to construct the application. The landing page contains information about me. The portfolio page is set up so that future projects can be linked to via anchor tags. The contact page is set up in order to allow messages to be sent to the user.
