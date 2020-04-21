@@ -107,14 +107,19 @@ img{
 }
 
 #contact-box{
-    font-size: 18px;
+    width: 90%;
+    height: 75%;
+    font-size: 1rem;
     border-style: solid;
     border-width: 3px;
     border-radius: 3% 3% 3% 3%;
     border-color: black;
     background-color: cadetblue;
-    padding: 4% 4% 4% 4%;
+    padding: 2% 4% 4% 2%;
    
+}
+#name, #email, #texta{
+    width: 98%;
 }
 
 
@@ -133,5 +138,9 @@ footer{
     font-weight: bolder;
 }
 
-
-
+.contact-input{
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
