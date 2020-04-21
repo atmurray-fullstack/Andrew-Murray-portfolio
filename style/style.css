@@ -12,7 +12,13 @@ hr{
     color:orange;
     
 }
-
+.container h2 a{
+    margin-left: 5%;
+    
+}
+.container h2 a:hover{
+    color:orange;
+}
 .h-h1{
     text-align: left;
     padding-left:10px;
@@ -102,8 +108,13 @@ img{
     background-color: rgb(255, 93, 65);
     padding:2% 2% 2% 2%;
 }
+
 #port-col img{
-    border-radius: 50%
+    margin-bottom: 2%;
+    border-radius: 20%;
+    width: auto;
+    height: 10%;
+    
 }
 
 #contact-box{
@@ -131,6 +142,7 @@ footer{
 }
 
 .sub-butt{
+    
     background-color: tomato ;
     color:white;
     font-style: 16px;
@@ -144,3 +156,5 @@ footer{
     margin-right: 10%;
     margin-bottom: 5%;
 }
+
+
