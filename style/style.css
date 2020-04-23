@@ -33,7 +33,7 @@ hr{
     color:whitesmoke;   
 
 }
-.grey-h2{
+.grey-h{
     
     color: slategrey;
     
@@ -73,7 +73,7 @@ img{
     border-width: 4px;
     border-radius: 5% 5% 5% 5%;
     background-color: tomato;
-    background-blend-mode: exclusion;
+    /* background-blend-mode: exclusion; */
 
 }
 #about-me h2{
@@ -85,37 +85,73 @@ img{
 #about-me hr{
     color:white;
 }
+#about-me a{
+    font: size 1rem;;
+    color:black;
+    font-family: 'Francois One', sans-serif;
+    font-weight: bolder;
+  
+}
+#about-me a:hover{
+    color:white;
+    font-size: 1.5rem;
+}
+#about-me a>img{
+    background:transparent;
+    height: 2%;
+}
+
 
 
 #port-box{
-       
-    padding:5% 5% 5% 5%;
-
-}
-
-#port-box a{
-    margin:0 2% 0 2%;
-    
-}
-#port-box a:hover{
-    filter: grayscale(100%);
-}
-
-#port-col{
     border-style: solid;
     border-width: 3px 3px 3px 3px;
     border-radius: 5% 5% 5% 5% ;
     background-color: rgb(255, 93, 65);
-    padding:2% 2% 2% 2%;
-}
+    padding:2% 0% 2% 0%;
+    }
+    #port-box a {
+        color:black;
+        font-family: 'Lobster', cursive;
+    }
 
-#port-col img{
-    margin-bottom: 2%;
-    border-radius: 20%;
-    width: auto;
-    height: 10%;
+.proj-col {
+    border-radius: 20%;  
+    border: 2px solid white;
+}
+.proj-col:hover{
+    border: white solid 8px;
+    filter: grayscale(100%);
     
 }
+
+#exchange{
+    background-image: url("assets/exchange_screenshot.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#weather{
+    background-image: url("assets/weather_screenshot.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#planner{
+    background-image: url("assets/dayplanner_screenshot.png");
+    background-position: center;
+    background-size: cover;
+}
+#port-box h5{
+    color: white;
+       
+}
+
+.repo-links:hover{
+    font-size: 1rem;
+    color:white;
+}
+
 
 #contact-box{
     width: 90%;
@@ -156,5 +192,6 @@ footer{
     margin-right: 10%;
     margin-bottom: 5%;
 }
+
 
 
