@@ -1,12 +1,9 @@
 .container{
     padding: 2% 2% 2% 2%;
-    height: 150vh;
     background-image: url('./assets/insta\ background.jpg');
     background-position: center;
     background-size: cover;
 }
-
-
 
 hr{
     border-top: 2px solid black;
@@ -66,7 +63,7 @@ img{
 }
 
 #about-me p{
-   font-size: 20px; 
+   font-size: 1rem; 
    color: black;
    font-family: 'Francois One', sans-serif;
    font-weight: bolder;
@@ -88,9 +85,7 @@ img{
     border-radius: 12px 12px 2px 2px;
 }
 
-#about-me hr{
-    color:white;
-}
+
 #about-me a{
     font: size 1rem;;
     color:black;
@@ -104,7 +99,14 @@ img{
 }
 #about-me img{
     background:transparent;
+    border:4px solid white;
+    border-radius: 3px 3px 3px 3px;
+    margin:4px 4px 4px 0px;
+    padding:0 0 0 0;
     
+}
+#about-me hr{
+    border-top: 2px solid white;
 }
 
 #port-box{
