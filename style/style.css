@@ -3,7 +3,6 @@
     height: 123vh;
     background-image: url('./assets/insta\ background.jpg');
     background-position: center;
-    background-repeat: repeat-y;
     background-size: cover;
 }
 
@@ -120,6 +119,9 @@ img{
     #port-box a {
         color:black;
         font-family: 'Lobster', cursive;
+    }
+    #port-box a:hover{
+        color:white;
     }
 
 .proj-col {
