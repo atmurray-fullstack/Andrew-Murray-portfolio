@@ -1,9 +1,9 @@
 .container{
     padding: 2% 2% 2% 2%;
-    height: 125vh;
+    height: 123vh;
     background-image: url('./assets/insta\ background.jpg');
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
 }
 
