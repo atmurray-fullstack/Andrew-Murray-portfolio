@@ -1,6 +1,6 @@
 .container{
     padding: 2% 2% 2% 2%;
-    height: 123vh;
+    height: 150vh;
     background-image: url('./assets/insta\ background.jpg');
     background-position: center;
     background-size: cover;
@@ -107,8 +107,6 @@ img{
     
 }
 
-
-
 #port-box{
     border-style: solid;
     border-width: 3px 3px 3px 3px;
@@ -116,11 +114,11 @@ img{
     background-color: rgb(255, 93, 65);
     padding:2% 0% 2% 0%;
     }
-    #port-box a {
+#port-box a {
         color:black;
         font-family: 'Lobster', cursive;
     }
-    #port-box a:hover{
+#port-box a:hover{
         color:white;
     }
 
@@ -129,7 +127,7 @@ img{
     border: 2px solid white;
 }
 .proj-col:hover{
-    border: white solid 8px;
+    border: white solid 12px;
     filter: grayscale(100%);
     
 }
@@ -153,6 +151,8 @@ img{
 }
 #port-box h5{
     color: white;
+    font-family: 'Francois One', sans-serif;
+
        
 }
 
@@ -184,6 +184,9 @@ img{
 }
 footer{
     opacity: .85;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .sub-butt{
